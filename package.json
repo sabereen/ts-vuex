@@ -1,0 +1,27 @@
+{
+  "name": "ts-vuex",
+  "version": "1.0.0",
+  "description": "Correctly typed Vuex",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sabereen/ts-vuex.git"
+  },
+  "keywords": [
+    "vue.js",
+    "vue",
+    "vuex",
+    "typescript"
+  ],
+  "author": "Mojtaba Qasemzade Tehrany",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sabereen/ts-vuex/issues"
+  },
+  "homepage": "https://github.com/sabereen/ts-vuex#readme",
+  "peerDependencies": {
+    "vue": "2.x",
+    "vuex": "3.x"
+  }
+}
