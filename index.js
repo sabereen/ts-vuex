@@ -10,4 +10,9 @@ Vuex.install = function (Vue) {
   })
 }
 
+Vuex.create = function (state, store) {
+  store.state = state
+  return store
+}
+
 module.exports = Vuex

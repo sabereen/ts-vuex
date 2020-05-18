@@ -116,6 +116,7 @@ export declare const mapMutations: Vuex.MapMutations
 export declare const mapActions: Vuex.MapActions
 
 export declare function Store<S, O extends Vuex.Options<S>>(options: O): Vuex.Store
+export declare function create<S, O extends Omit<Vuex.Options<S>, 'state'>>(state: S, options: O): O & { state: S }
 
 declare module 'vue/types/vue' {
   interface Vue {
